@@ -1,0 +1,167 @@
+.content{
+  width: 100vw;
+  min-height: auto;
+}
+
+.Tbody{
+  width: 100vw;
+  height: auto;
+}
+.banner{
+  width: 100vw;
+  height: 100vh;
+  position: static;
+  overflow: hidden;
+  cursor: pointer;
+}
+
+a{
+  text-decoration: none;
+  color: rgb(44, 45, 46);
+}
+
+.postcards{
+  color: "black";
+  font-size: 20px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', 'sans-serif'
+}
+
+.banner{
+  width: 100vw;
+  height: 100vh;
+  position: static;
+  overflow: hidden;
+  cursor: pointer;
+}
+.photoGrid{
+  margin-top: 50px;
+  width: 100vw;
+  height: auto;
+  display: grid;
+  place-items: center;
+  grid-template-columns: repeat(2,1fr);
+  gap: 15px;
+}
+
+.links{
+   position: relative;
+   translate: 0 78vh 
+}
+
+.link{
+  font-size: 50px;  
+}
+@media only screen and (max-width : 400px) {
+  .content{
+    width: 100vw;
+    min-height: auto;
+  }
+  
+  .Tbody{
+    width: 100vw;
+    height: auto;
+  }
+  .banner{
+    width: 100%;
+    height: 105vh;
+    position: static;
+    overflow: hidden;
+    cursor: pointer;
+  }
+  
+  a{
+    text-decoration: none;
+    color: rgb(44, 45, 46);
+  }
+  
+  .postcards{
+    color: "black";
+    font-size: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', 'sans-serif'
+  }
+  
+  .links{
+    position: relative;
+    translate: 0 72vh 
+ }
+  .link{
+    font-size: 30px;  
+  }
+
+  .banner{
+    width: 100vw;
+    height: 100vh;
+    position: static;
+    overflow: hidden;
+    cursor: pointer;
+  }
+  .photoGrid{
+    margin-top: 50px;
+    width: 100vw;
+    height: auto;
+    display: grid;
+    place-items: center;
+    grid-template-columns: repeat(2,1fr);
+    gap: 15px;
+  }
+  
+}
+
+@media only screen and (min-width: 1200px) {
+  .Tbody{
+    width: 100vw;
+    height: auto;
+    overflow-y: scroll;
+  }
+  
+  .postcards{
+    color: "black";
+    font-size: 50px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', 'sans-serif'
+  }
+
+  .content{
+    width: 100vw;
+    min-height: auto;
+  }
+  
+  .banner{
+    width: 100vw;
+    height: 100vh;
+    position: static;
+    overflow: hidden;
+    cursor: pointer;
+  }
+  
+  a{
+    text-decoration: none;
+    color: rgb(44, 45, 46);
+  }
+  
+  .photoGrid{
+    margin-top: 50px;
+    width: 100vw;
+    height: auto;
+    display: grid;
+    place-items: center;
+    grid-template-columns: repeat(4,1fr);
+    gap: 20px;
+  }
+  
+  .photos{
+    width: 300px;
+    height: 350px;
+    background-color: brown;
+  }
+  
+  
+  .links{
+    position: relative;
+    translate: 0 78vh 
+ }
+ 
+ .link{
+   font-size: 50px;  
+ }
+  
+}
